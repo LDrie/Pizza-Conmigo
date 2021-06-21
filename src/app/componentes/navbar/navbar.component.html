@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg fw-bold navbar-dark">
+    <div class="container-fluid">
+      <img src="../../../assets/pizzaconmigo96.png">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['home']">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['menupizza']">Menú Pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" [routerLink]="['contacto']">Contacto</a>
+          </li>
+        </ul>
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="material-icons">
+                account_circle
+                </span>Martin Belgrano
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item" type="button">Configuración</button></li>
+              <li><button class="dropdown-item" type="button">Perfil</button></li>
+              <li><button class="dropdown-item" type="button">Cerrar sesión</button></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </nav>
